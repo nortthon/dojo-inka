@@ -1,0 +1,10 @@
+server.port: 8443
+
+spring:
+  application:
+    name: security
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/
